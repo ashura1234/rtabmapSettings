@@ -6,8 +6,11 @@
 [Download](https://github.com/introlab/rtabmap/releases/download/0.20.8/RTABMap-0.20.8-win64-cuda11_1.exe) and install
 # Import Settings
 [Azure Kinect Config File](https://raw.githubusercontent.com/pearnets/rtabmapSettings/main/config_Azure_Kinect.ini)
+
 [Realsense L515 Config File](https://raw.githubusercontent.com/pearnets/rtabmapSettings/main/config_L515_1080p.ini)
+
 [Realsense D435i Config File](https://raw.githubusercontent.com/pearnets/rtabmapSettings/main/config_D435i.ini)
+
 [Realsense D435i Camera Settings File](https://raw.githubusercontent.com/wiki/IntelRealSense/librealsense/d400_presets/HighResHighAccuracyPreset.json)
 
 Window -> Preferences -> General Settings -> Load settings
@@ -29,8 +32,11 @@ Press the Start button
 
 Calibrated Models:
 [Azure Kinect Distortion Model](https://github.com/pearnets/rtabmapSettings/blob/main/distortion_model_Azure_Kinect.bin?raw=true)
+
 [Azure Kinect 2160p Distortion Model](https://github.com/pearnets/rtabmapSettings/blob/main/distortion_model_Azure_Kinect_2160p.bin?raw=true)
+
 [Realsense L515 Distortion Model](https://github.com/pearnets/rtabmapSettings/blob/main/distortion_model_L515_new.bin?raw=true)
+
 [Realsense D435i Distortion Model](https://github.com/pearnets/rtabmapSettings/blob/main/distortion_model_D435i.bin?raw=true)
 
 To load distortion model:
@@ -58,6 +64,7 @@ Window -> Preferences -> Source -> Depth Image Filtering -> Choose corresponding
 
 # Output .ply Point Cloud
 [Azure Kinect Output Settings File](https://raw.githubusercontent.com/pearnets/rtabmapSettings/main/Output_Settings_Azure_Kinect.ini)
+
 [Realsense D435i and L515 Output Settings File](https://raw.githubusercontent.com/pearnets/rtabmapSettings/main/Output_Settings_D435i_L515.ini)
 
 - File -> Open database -> select saved database
